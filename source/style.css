@@ -1,0 +1,156 @@
+/* General Reset & Theme */
+body {
+    background: linear-gradient(35deg, #161616 0%, #0c0c0c 100%);
+    background-attachment: fixed; 
+    color: #f0f0f0;
+    font-family: 'Inter', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation - Centered */
+.lang-nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+details {
+    cursor: pointer;
+}
+
+summary {
+    list-style: none;
+    padding: 10px;
+    background: #1a1a1a;
+    border-radius: 8px;
+    transition: background 0.3s;
+}
+
+summary:hover {
+    background: #2a2a2a;
+}
+
+.lang-icon {
+    width: 32px; /* Smaller, more minimalistic */
+    filter: invert(1); /* Makes the SVG white */
+}
+
+/* Hero Title */
+.hero-title {
+    text-align: center;
+    margin: 100px 0;
+    font-size: 4.0rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.section-divider {
+    text-align: center;
+    margin: 60px 0;
+    font-size: 3.0rem;
+    font-weight: 700;
+}
+
+h3 {
+    text-align: top;
+    margin: 0 0;
+    font-size: 1.5rem;
+}
+
+p {
+    margin: 1.5rem 0;
+    line-height: 1.75rem;
+}
+
+.who-am-i div {
+    margin: 175px 0 175px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.who-am-i h2 {
+    font-size: 2.5rem;
+}
+
+.who-am-i p {
+    padding: 0 0;
+    margin: 0.5rem 0;
+    font-size: 1.5rem;
+}
+
+/* Alternating Layout Logic */
+.content-block {
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto 120px auto;
+    padding: 0 20px;
+    gap: 40px;
+}
+
+/* Flip every even section */
+.content-block:nth-child(even) {
+    flex-direction: row-reverse;
+    text-align: right;
+}
+
+.text-group {
+    flex: 1;
+}
+
+.media-group {
+    flex: 1;
+}
+
+/* Handle Multiple Screenshots (Atami) */
+.app-screenshots {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+}
+
+.app-screenshots img {
+    max-width: 45%; /* Two screenshots side-by-side */
+}
+
+img, video {
+    max-width: 100%;
+    border-radius: 4px;
+    border: 1px solid #333;
+}
+
+/* Simple List Styling */
+.bio-list {
+    list-style: none;
+    padding: 0;
+}
+
+/* Footer */
+footer {
+    border-top: 1px solid #222;
+    padding: 40px 0;
+    margin-top: 100px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+a {
+    color: #aaa;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #fff;
+}
