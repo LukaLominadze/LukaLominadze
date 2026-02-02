@@ -1,5 +1,4 @@
 ## Hi there 👋
-
 <!--
 **LukaLominadze/LukaLominadze** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
@@ -16,6 +15,7 @@ Here are some ideas to get you started:
 -->
 <div>
     <p  align="center">Welcome to my GitHub page!</p>
+    <p  align="center">Check out my <a href="https://lukalominadze.github.io/LukaLominadze/">Website</a></p>
     <h4 align="left">My Projects</h4>
     <table align="center">
         <tr>
